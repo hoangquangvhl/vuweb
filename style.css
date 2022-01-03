@@ -7,10 +7,11 @@
    }
    #menu{
       border-style: outset;
-      border-width:5px;
+      border-width:2px;
       text-align:center;
       margin-top:20px;
       padding-top: 10px;
+      box-shadow: 5px 10px black;
    }
    #footer{
       background:gray;
