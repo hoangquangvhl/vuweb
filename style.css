@@ -23,15 +23,14 @@
       background-color:black;
    }
 li{
-    margin:25px;
+    margin-left:25px;
 }
 div.song{
      		margin-top:20px;
      		margin-bottom:20px;
      		padding:20px;
      		border-style:solid;
-     		border-radius:3px;
-       box-sizing:border-box;
+     		border-radius:10px;
 }
 div.song:hover{
      		box-shadow:5px 5px gray;
