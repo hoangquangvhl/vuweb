@@ -24,10 +24,11 @@
    }
 div.song{
      		margin-top:20px;
-     		margin-buttom:20px;
-     		padding:2px;
+     		margin-bottom:20px;
+     		padding:20px;
      		border-style:solid;
      		border-radius:10px;
+       box-sizing:border-box;
 }
 div.song:hover{
      		box-shadow:5px 5px gray;
