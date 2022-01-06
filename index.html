@@ -5,14 +5,14 @@
    <title>Vu's Website </title>
    <link rel="stylesheet" href="style.css">
 </head>
-<body link="black" >
+<body link="black">
 
-  <div id="all">
     <div id="header">
-    <h1>
-     Vu's Website 
-     </h1>
+    <h2>
+     Vu's Website <br>
+     </h2>
     </div>
+    <hr style="margin-top:5px;background-color:gray;">
     
     
     <div id="menu">
@@ -21,59 +21,23 @@
           <button><a href="./movie" >Movie</a></button>
        </nav>
        </div>
-       
-    
-    <div>
-    <h2 class="info" ><b><u>INFO</u></b></h2>
-     </div>
      
-     
-     <div>
-        <h3>
-          Music: 
-        </h3>
-        <ul>
-          <li> 
-             Toxic - BoyWithUke
-          </li>
-          <audio controls preload="none">
-             <source src="./music/toxic-boywithuke.mp3" type="audio/mpeg" />
-          </audio>
-          <li>
-            Happiest Year - Jaymes Young
-          </li>
-          <audio controls preload="none">
-             <source src="./music/happiestyear-jamesyoung.mp3" type="audio/mpeg" />
-          </audio>
-        </ul>
-        <p><a class="seemore" href="./music" > See more </a></p>
-     </div>
-     
-     
-     <hr>
- 
-     <div>
-       <h3>
-         Movie:
-       </h3>
-       <ul>
-          <li>
-            <p>Your Name (Kimi no na wa)</p>
-          </li>
-          <li>
-             <p> 5 cm/s </p>
-          </li>
-       </ul>
-       <a class="seemore" href="movie" >See more</a>
-     </div>
-     
-     
-     <hr>
-     
+     	<div class="info">
+     	<details><summary><a href="./music" ><code>Music</code></a></summary>
+     		<p class="info">My favorite</p>
+     		</details>
+     	</div>
+     	
+     	<div class="info">
+     	<details><summary><a href="./movie" ><code>Movie</code></a></summary>
+     	<p class="info"> My favorite </p>
+     	</details>
+     	</div>
      
      
 
      <div id="footer" >
+     <hr style="width:100%">
      <b>  © Vu   </b>
      </div>
 </body>
